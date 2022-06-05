@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+#main{
+	width: 100%;
+	height: 110vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url("https://lifepack.id/wp-content/uploads/2021/06/1_LP_SEX_obat_flagyl_forte.jpg");
+	background-size: cover;
+	background-position: center;
+  padding: 20px;
+  color: #000000;
+  font-weight: 100;  
+}
+#input{
+  width: 50%;
+  background: #c78902;
+  padding: 20px;
+  margin:0 auto;
+  height: 105vh;
+}
+table tr td{
+  padding: 10px;
+  width: 75%;
+  height: 25px;
+}
+.button {
+  background-color: #594c1e;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

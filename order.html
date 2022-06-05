@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tugas Kelompok 1</title>
+  <link rel="stylesheet" type="text/css" href="order.css">
+</head>
+<body>
+  <script type="text/javascript" src="script.js"></script>
+  <div id="main">
+    <div id="input">
+    <form name = fform>
+      <table border="1" cellspacing="0">
+        <tr>
+          <td>Nama : </td>
+          <td><input type="text" name="nama"></td>
+        </tr>
+        <tr>
+          <td>No. Telp : </td>
+          <td><input type="text" name="notelp"></td>
+        </tr>
+        <tr>
+          <td>Tgl Pembelian : </td>
+          <td><input type="text" name="tgl"></td>
+        </tr>
+        <tr>
+           <td>Obat : </td>
+          <td><select name = "iobat">
+        <option value="Promag">Promag Rp.15000</option>
+        <option value="Procold">Procold Rp.10000</option>
+        <option value="Amoxicilin">Amoxicilin Rp.20000</option>
+        <option value="Paracetamol">Paracetamol Rp.25000</option>
+      </select></td>
+        </tr>
+        <tr>
+           <td>Banyak Yang Dibeli : </td>
+          <td><input type="text" size="20" name="banyak"></td>
+        </tr>
+      </table>
+      <p align="right">
+      <input type="button" class="button" value="Pesan" onclick="obat()">&emsp;
+      <input type="reset" class="button" value="Ulang"><br><br>
+      <hr><br></p>
+      <center><h2>Struk Pembelian Obat</h2></center><br><br>
+      <table>
+        <tr>
+          <td>Nama : </td>
+          <td><input type="text" size="20" name="onama"></td>
+        </tr>
+         <tr>
+           <td>No. Telp : </td>
+           <td><input type="text" size="20" name="onotelp"></td>
+         </tr>
+         <tr>
+            <td>Tgl Pembelian : </td>
+          <td><input type="text" size="20" name="otgl"></td>
+         </tr>
+         <tr>
+            <td>Obat : </td>
+            <td><input type="text" size="20" name="oobat"></td>
+         </tr>
+         <tr>
+           <td>Banyak Yang Dibeli : </td>
+           <td><input type="text" size="20" name="obanyak"></td>
+         </tr>
+         <tr>
+           <td>Total Harga : </td>
+           <td><input type="text" size="20" name="ototal"></td>
+         </tr>
+      </table>
+    </form>  
+    </div>
+  </div>
+</body>
